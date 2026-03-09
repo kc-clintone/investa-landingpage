@@ -1,3 +1,5 @@
+import { Button } from "./Button"
+
 export const Header = () => {
   return (
     // TODO: Add responsive design and mobile menu
@@ -9,7 +11,7 @@ export const Header = () => {
             <a href="#" className="text-[#4B0082] hover:text-[#6A5ACD] transition-colors duration-300">Pricing</a>
             <a href="#" className="text-[#4B0082] hover:text-[#6A5ACD] transition-colors duration-300">Features</a>
         </div>
-        <button className="bg-[#1628D2] text-white px-6 py-2 cursor-pointer rounded-md">Get Started</button>
+        <Button text="Get Started Now" />
     </div>
   )
 }
