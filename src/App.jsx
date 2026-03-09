@@ -8,10 +8,9 @@ import { Solution } from './components/Solution'
 import { HowItWorks } from './components/HowItWorks'
 import { Trust } from './components/Trust'
 import { CTA } from './components/CTA'
+import { Layout } from './components/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <Layout>
     {/* Hero */}
