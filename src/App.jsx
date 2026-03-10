@@ -1,10 +1,10 @@
-import { Hero } from './components/Hero'
-import { Problem } from './components/Problem'
-import { Solution } from './components/Solution'
-import { HowItWorks } from './components/HowItWorks'
-import { CTA } from './components/CTA'
-import { Layout } from './components/Layout'
-import { FAQs } from './components/FAQs'
+import { Hero } from './components/sections/Hero'
+import { Problem } from './components/sections/Problem'
+import { Solution } from './components/sections/Solution'
+import { HowItWorks } from './components/sections/HowItWorks'
+import { CTA } from './components/sections/CTA'
+import { Layout } from './components/layout/Layout'
+import { FAQs } from './components/sections/FAQs'
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
     {/* CTA */}
     <CTA />
     </Layout>
-
     </div>
   )
 }

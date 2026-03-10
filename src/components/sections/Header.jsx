@@ -1,4 +1,4 @@
-import { Button } from "./Button"
+import { Button } from "../ui/Button"
 
 export const Header = () => {
   return (
@@ -11,7 +11,7 @@ export const Header = () => {
             <a href="#" className="text-[#4B0082] hover:text-[#6A5ACD] transition-colors duration-300">Pricing</a>
             <a href="#" className="text-[#4B0082] hover:text-[#6A5ACD] transition-colors duration-300">Features</a>
         </div>
-        <Button text="Get Started Now" />
+        <Button text="Get Started Now" className="bg-[#4b0082] rounded-lg"/>
     </div>
   )
 }
