@@ -2,9 +2,9 @@ import { Hero } from './components/Hero'
 import { Problem } from './components/Problem'
 import { Solution } from './components/Solution'
 import { HowItWorks } from './components/HowItWorks'
-import { Trust } from './components/Trust'
 import { CTA } from './components/CTA'
 import { Layout } from './components/Layout'
+import { FAQs } from './components/FAQs'
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
     <Solution />
     {/* How it works */}
     <HowItWorks />
-    {/* Trust */}
-    <Trust />
+    {/* FAQs */}
+    <FAQs />
     {/* CTA */}
     <CTA />
     </Layout>
