@@ -1,12 +1,12 @@
 import { Footer } from '../sections/Footer'
 import { Header } from '../sections/Header'
 
-export const Layout = ({children}) => {
+export const Layout = ({ children }) => {
   return (
-    <div className='min-h-screen mx-auto justify-center items-center'>
-        <Header />
-        {children}
-        <Footer />
+    <div className="flex flex-col min-h-screen w-full">
+      <Header />
+      <main className="flex-1">{children}</main>
+      <Footer />
     </div>
-  )
-}
+  );
+};
