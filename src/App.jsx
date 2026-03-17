@@ -8,7 +8,7 @@ import { FAQs } from './components/sections/FAQs'
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen bg-[#EEEDFF]'>
+    <div className='flex flex-col min-h-screen w-screen bg-[#EEEDFF] overflow-x-hidden'>
     <Layout>
     {/* Hero */}
     <Hero />
