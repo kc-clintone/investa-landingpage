@@ -2,7 +2,7 @@ import { Section } from "../ui/Section"
 
 export const CTA = () => {
   return (
-    <div id="cta" className="bg-gradient-to-r from-[#1a1a2e] to-[#4B0082] max-w-6xl mx-auto rounded-lg">
+    <div id="cta" className="bg-linear-to-r from-[#1a1a2e] to-[#4B0082] max-w-6xl mx-auto rounded-lg">
       <Section>
         <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center pl-15 py-5 gap-10">
           {/* Left Column - Text & Buttons */}
