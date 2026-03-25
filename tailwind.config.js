@@ -2,7 +2,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        logo: ['"Playfair Display"', 'serif'],
+        logo: ['"Gochi Hand"', 'serif'],
       },
     },
   },
