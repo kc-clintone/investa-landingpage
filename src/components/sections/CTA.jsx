@@ -1,11 +1,31 @@
+import { Section } from "../ui/Section"
+
 export const CTA = () => {
   return (
-    <div>
-      <div className="mx-auto h-screen flex items-center justify-center container flex-col bg-[#4B0082]">
-        <h1 className="text-4xl font-bold text-white mb-6">Ready to Get Started?</h1>
-        <p className="text-xl text-white mb-8">Join Investa today and take control of your financial future. Sign up now to start your journey towards smarter investing!</p>
-        <button className="px-6 py-3 bg-white text-[#4B0082] font-semibold rounded-md hover:bg-gray-200 transition duration-300">Sign Up Now</button>
-      </div>
+    <div id="cta" className="bg-gradient-to-r from-[#1a1a2e] to-[#4B0082] max-w-6xl mx-auto rounded-lg">
+      <Section>
+        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center pl-15 py-5 gap-10">
+          {/* Left Column - Text & Buttons */}
+          <div className="text-center lg:text-left lg:w-1/2">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+              Ready To Get Started?
+            </h1>
+            <p className="text-lg lg:text-xl text-white mb-10">
+              Risus Habitamt Leo Egestas Mauris Diam Eget Morbi Tempus Vulputate.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+              <a href="#" className="inline-block">
+                <img src="/store.png" alt="Download on the App Store" className="h-15"/>
+              </a>
+            </div>
+          </div>
+
+          {/* Right Column - Phone Mockups */}
+          <div className="relative lg:w-1/2 flex justify-center">
+            <img src="/mockup1.png" alt="App screen 1" className="w-40 lg:w-300"/>
+          </div>
+        </div>
+      </Section>
     </div>
   )
 }
