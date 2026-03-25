@@ -3,7 +3,7 @@ import { Section } from "../ui/Section"
 
 export const Contact = () => {
   return (
-    <div className="bg-white mb-0">
+    <div className="bg-white mb-0" id="contact">
     <Section className="py-20 my-0">
       <div className="container mx-auto flex flex-col lg:flex-row gap-10 max-w-6xl">
         {/* Left Column - Contact Info */}

@@ -1,7 +1,7 @@
 import { Sparkles, Box, Layers, Bell  } from "lucide-react"
 
 export const navLinks = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "#home" },
     { name: "About Us", href: "#problem" },
     { name: "Solutions", href: "#solution" },
     { name: "F.A.Qs", href: "#faqs" },

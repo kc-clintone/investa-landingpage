@@ -10,7 +10,7 @@ export const Footer = () => {
 
           {/* Left Column - Logo + Newsletter */}
           <div className="md:w-1/3">
-            <h1 className="text-3xl font-bold mb-2">Investa</h1>
+            <h1 className="logo text-4xl mb-5 cursor-pointer">Investa</h1>
             <p className="text-sm mb-4">Stay Up To Date With Our Newsletter</p>
             <form className="flex w-full max-w-sm rounded-full overflow-hidden border border-white bg-white p-1">
               <input

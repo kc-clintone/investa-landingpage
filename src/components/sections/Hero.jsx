@@ -3,6 +3,7 @@ import { Button } from "../ui/Button";
 
 export const Hero = () => {
   return (
+    <div id="home">
     <Section fullHeight className="flex justify-center gap-20 -m-20">
       <div className="max-w-2xl -mt-20">
         <h1 className="text-7xl font-bold text-[#140122] mb-6">
@@ -19,5 +20,6 @@ export const Hero = () => {
 
       <img src="/hero.png" alt="hero" className="w-[512px]" />
     </Section>
+    </div>
   );
 };
