@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="fixed top-0 left-0 w-full z-50 mt-5">
       <div className="h-16 flex items-center justify-between px-7 max-w-7xl mx-auto">
         
-        <div className="text-2xl font-bold font-logo text-[rgb(75,0,130)]">
+        <div className="logo text-4xl cursor-pointer tracking-wide text-[rgb(75,0,130)]">
           Investa
         </div>
 
