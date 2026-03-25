@@ -4,7 +4,7 @@ import { navLinks } from "../../../utils.js"
 export const Header = () => {
   return (
     // TODO: Add responsive design and mobile menu
-    <div className="w-full h-16 flex items-center justify-between py-12 px-7 container max-w-355 mx-auto mt-5 sticky top-0 z-50">
+    <div className="w-full h-16 flex items-center justify-between py-12 px-7 container max-w-7xl mx-auto mt-5 sticky top-0 z-50">
         <div className="text-2xl font-bold text-[rgb(75,0,130)]">Investa</div>
         <div className="flex items-center gap-2 bg-[#A1A1A1]/30 px-1 py-1 rounded-full backdrop-blur-lg">
             {
